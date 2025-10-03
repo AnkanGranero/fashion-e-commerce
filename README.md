@@ -195,3 +195,21 @@ The project is developed for educational purposes and is not meant for real prod
 - [Judy-P-Eldh](https://github.com/Judy-P-Eldh)
 - [gentlelynx](https://github.com/gentlelynx)
 
+## Main conntributions 
+
+- Designed a **custom CSS Grid layout system** with named columns (`content-small`, `content`, `breakout`, `full-width`). This allowed child components to align horizontally by assigning semantic classes, ensuring consistent page layouts across the site.
+
+- Implemented **Server Actions** for adding and deleting products, enabling interactive user flows while handling asynchronous API calls on the server. Also implemented toast feedback to user on api response from these actions.
+
+- Developed a **dynamic collections page** that uses slugs to display product categories for a selected collection. Added functionality for users to switch between collections and browse different categories.
+
+- Assisted in creating pagination for search pages.
+
+- Created Footer and Navigation components.
+
+## Future improvements
+
+- Add global error handling 
+- Set up a database that could create and manage carts. 
+- Create a checkout flow for that cart.
+- Add tests to the code.
